@@ -1,17 +1,16 @@
-Ce code est une interface graphique pour iptables, le pare feu Linux.
+Iptables Web UI is a graphic panel to manage your iptables rules easily. 
 
-Elle vous permet de :
+This fork is only a translation in english of the original french code created by Holox76.
+I am not responsible for potential vulnerabilities in this code.
 
-* Bloquer une adresse IP
-* Autoriser une adresse IP
-* Autoriser le ping
-* Bloquer le ping
-* Bloquer un port
-* Autoriser un port
-* Autoriser l'UDP
-* Bloquer l'UDP
-* Vider les règles
-* Bloquer le trafic extérieur
+You can :
+* Block an IP address
+* Allow/deny the "Ping"
+* Allow/deny a slot
+* Allow/deny UDP
+* Purge rules
+* Allow/deny the external traffic
 
-
-Vous devez avoir un serveur SSH et avoir au préalable activé l'extension : SSH2 sur votre serveur PHP.
+You need :
+* Have a SSH server.
+* Switch on SSH2 on your PHP server (Apache)
